@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Quemn descobriu o Brasil?</p>
+
+            <div>
+                <label for="colombo">Cristovão Colombo</label>
+                <input type="radio" id="colombo"name="descobriu">
+            </div>
+            <div>
+                <input type="radio" id="cabral" name="descobriu">
+                <label for="cabral">Pedro Álvares Cabral</label>
+            </div>
+        </div>
+
+        <!-- select -->
+        <div>
+            <label for="turma">Escolha sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ta">01TA</option>
+                <option value="01tb">O1TB</option>
+                <option value="o1tc">01TC</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Escreva seu nome" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Escreva seu email">
+        </div>
+        <div>
+            <label for="data">Data:</label>
+            <input type="date" id="data" placeholder="Data">
+        </div>
+        <div>
+            <label for="time">Hora do dia:</label>
+            <input type="time" id="time" placeholder="time">
+        </div>
+
+        <div>
+            <p>Qual o melhor jogador da história</p>
+
+            <div>
+                <label for="Ronaldo">Cristiano Ronaldo</label>
+                <input type="radio" id="Ronaldo"name="jogador">
+            </div>
+            <div>
+                <label for="Messi">Lionel Messi</label>
+                <input type="radio" id="Messi" name="jogador">
+            </div>
+            <div>
+                <label for="Pelé">Pelé</label>
+                <input type="radio" id="Pelé" name="jogador">
+            </div>
+            <div>
+                <label for="Maradona">Maradona</label>
+                <input type="radio" id="Maradona">
+            </div>
+        </div>
+        <div>
+            <label for="turma">Escolha seu gênero:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ta">Masculino</option>
+                <option value="01tb">Feminino</option>
+                <option value="o1tc">Indefinido</option>
+                <option value="o1tc">Outro</option>
+            </select>
+        </div>
+
+        <button>Enviar>>></button>
+
+    </form>
+</body>
+</html>
